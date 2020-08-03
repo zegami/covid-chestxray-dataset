@@ -1,0 +1,10 @@
+# The name of the collection
+name: Covid-19 X-rays
+description: Example collection of xrays of patients with Covid-19 and other lung conditions
+dataset_type: file
+imageset_type: file
+file_config:
+    path: ./metadata.csv
+    paths:
+        - ./images
+dataset_column: image_name
