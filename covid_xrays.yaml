@@ -7,4 +7,4 @@ file_config:
     path: ./metadata.csv
     paths:
         - ./images
-dataset_column: image_name
+dataset_column: filename
